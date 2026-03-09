@@ -1,6 +1,7 @@
 {
   "name": "Plate Lunch Collective",
   "theme": "mint",
+  "noindex": true,
   "colors": {
     "primary": "#C1440E",
     "light": "#E8836A",
