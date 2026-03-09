@@ -1,56 +1,37 @@
 {
   "name": "Plate Lunch Collective",
   "theme": "mint",
-  "logo": {
-    "light": "/logo/plc-logo-dark.svg",
-    "dark": "/logo/plc-logo-light.svg",
-    "href": "https://platelunchcollective.com"
-  },
-  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#C1440E",
     "light": "#E8836A",
-    "dark": "#C1440E",
-    "background": {
-      "light": "#FAF7F2",
-      "dark": "#1A1410"
-    }
+    "dark": "#C1440E"
   },
-  "topbarLinks": [
-    { "name": "Main Site", "url": "https://platelunchcollective.com" }
-  ],
-  "topbarCtaButton": {
-    "name": "Work With Us",
-    "url": "https://platelunchcollective.com/contact"
-  },
-  "anchors": [
-    { "name": "Glossary", "icon": "spell-check", "url": "glossary", "color": "#C1440E", "iconType": "duotone" },
-    { "name": "Methodology", "icon": "arrows-rotate", "url": "methodology", "color": "#8B5E3C", "iconType": "duotone" },
-    { "name": "Services", "icon": "arrow-up-right", "url": "https://platelunchcollective.com/services/ai-seo", "color": "#C1440E" }
-  ],
   "navigation": [
     {
       "group": "Field Manual",
-      "pages": ["field-manual/introduction", "field-manual/how-it-works", "field-manual/faq"]
+      "pages": ["field-manual/introduction"]
     },
     {
       "group": "The 90-Day Sprint",
-      "pages": ["methodology/overview", "methodology/sprint-structure", "methodology/what-we-deliver", "methodology/knowledge-transfer"]
+      "pages": ["methodology/overview"]
     },
     {
       "group": "Glossary",
       "pages": [
-        "glossary/ai-seo", "glossary/aeo", "glossary/geo", "glossary/rag",
-        "glossary/entity-optimization", "glossary/citation-architecture",
-        "glossary/retrieval-layer", "glossary/knowledge-graph", "glossary/ai-brand-score",
-        "glossary/topical-authority", "glossary/structured-data", "glossary/ai-traffic",
-        "glossary/social-search", "glossary/llm-visibility"
+        "glossary/ai-seo",
+        "glossary/aeo",
+        "glossary/geo",
+        "glossary/rag",
+        "glossary/entity-optimization",
+        "glossary/citation-architecture",
+        "glossary/retrieval-layer",
+        "glossary/knowledge-graph",
+        "glossary/ai-brand-score",
+        "glossary/topical-authority",
+        "glossary/structured-data",
+        "glossary/ai-traffic",
+        "glossary/social-search"
       ]
     }
-  ],
-  "footerSocials": {
-    "linkedin": "https://www.linkedin.com/company/plate-lunch-collective",
-    "website": "https://platelunchcollective.com"
-  },
-  "modeToggle": { "default": "light" }
+  ]
 }
