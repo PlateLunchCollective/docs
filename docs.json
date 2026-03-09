@@ -1,5 +1,6 @@
 {
   "name": "Plate Lunch Collective",
+  "theme": "maple",
   "logo": {
     "light": "/logo/plc-logo-dark.svg",
     "dark": "/logo/plc-logo-light.svg",
@@ -53,4 +54,3 @@
   },
   "modeToggle": { "default": "light" }
 }
- 
