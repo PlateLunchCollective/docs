@@ -1,122 +1,60 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+  "name": "Plate Lunch Collective",
+  "logo": {
+    "light": "/logo/plc-logo-dark.svg",
+    "dark": "/logo/plc-logo-light.svg",
+    "href": "https://platelunchcollective.com"
   },
   "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
+  "colors": {
+    "primary": "#C1440E",
+    "light": "#E8836A",
+    "dark": "#C1440E",
+    "background": {
+      "light": "#FAF7F2",
+      "dark": "#1A1410"
+    }
+  },
+  "topbarLinks": [
+    { "name": "Main Site", "url": "https://platelunchcollective.com" }
+  ],
+  "topbarCtaButton": {
+    "name": "Work With Us",
+    "url": "https://platelunchcollective.com/contact"
+  },
+  "topAnchor": {
+    "name": "Field Manual",
+    "icon": "book-open",
+    "iconType": "duotone"
+  },
+  "anchors": [
+    { "name": "Glossary", "icon": "spell-check", "url": "glossary", "color": "#C1440E", "iconType": "duotone" },
+    { "name": "Methodology", "icon": "arrows-rotate", "url": "methodology", "color": "#8B5E3C", "iconType": "duotone" },
+    { "name": "Services", "icon": "arrow-up-right", "url": "https://platelunchcollective.com/services/ai-seo", "color": "#C1440E" }
+  ],
+  "navigation": [
+    {
+      "group": "Field Manual",
+      "pages": ["field-manual/introduction", "field-manual/how-it-works", "field-manual/faq"]
+    },
+    {
+      "group": "The 90-Day Sprint",
+      "pages": ["methodology/overview", "methodology/sprint-structure", "methodology/what-we-deliver", "methodology/knowledge-transfer"]
+    },
+    {
+      "group": "Glossary",
+      "pages": [
+        "glossary/ai-seo", "glossary/aeo", "glossary/geo", "glossary/rag",
+        "glossary/entity-optimization", "glossary/citation-architecture",
+        "glossary/retrieval-layer", "glossary/knowledge-graph", "glossary/ai-brand-score",
+        "glossary/topical-authority", "glossary/structured-data", "glossary/ai-traffic",
+        "glossary/social-search", "glossary/llm-visibility"
       ]
     }
+  ],
+  "footerSocials": {
+    "linkedin": "https://www.linkedin.com/company/plate-lunch-collective",
+    "website": "https://platelunchcollective.com"
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
+  "modeToggle": { "default": "light" }
 }

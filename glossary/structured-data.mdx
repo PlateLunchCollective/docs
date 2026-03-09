@@ -1,0 +1,44 @@
+---
+title: "Structured Data"
+description: "What structured data is, how it works, and why it matters for AI retrieval and search visibility."
+---
+
+# Structured Data
+
+**Structured data** is code added to a webpage that explicitly describes the content to search engines and AI systems. Rather than leaving a crawler to infer what a page is about, structured data states it directly — this is a product, this is its price, this is an FAQ, these are the questions and answers it contains.
+
+The most common format is JSON-LD, a block of JavaScript placed in the page's HTML that uses vocabulary from Schema.org to describe the page's content in a standardized way.
+
+## Why It Matters for AI Retrieval
+
+AI systems favor content they can parse cleanly. Structured data removes ambiguity — it tells the retrieval layer exactly what type of content it's reading, what entities are involved, and what questions the content answers.
+
+For [AEO](/glossary/aeo) specifically, structured data is one of the highest-leverage technical investments a brand can make. FAQ schema, HowTo schema, and Article schema all directly improve the likelihood that content gets extracted and cited in AI-generated responses.
+
+## Schema Types That Matter Most for AI SEO
+
+**Organization** — defines your brand as an entity: name, URL, logo, founding date, social profiles, contact information. This feeds [entity optimization](/glossary/entity-optimization) and knowledge graph signals directly.
+
+**FAQPage** — marks up question-and-answer content so retrieval systems can extract individual Q&A pairs. One of the most direct AEO signals available.
+
+**Article / BlogPosting** — identifies content as editorial, establishes authorship, and signals publication date for recency evaluation.
+
+**Service** — describes a specific service offering, its provider, and its area of coverage. Directly relevant for service business retrieval.
+
+**LocalBusiness** — for businesses with a physical presence or defined service area, this schema feeds local retrieval signals across both search and AI platforms.
+
+**BreadcrumbList** — helps AI systems understand site structure and content hierarchy.
+
+## Implementation Notes
+
+JSON-LD is the recommended format — it keeps structured data separate from visible content and is easiest to maintain. Place it in the `<head>` of each page or just before the closing `</body>` tag.
+
+Every service page, FAQ page, and about page on a brand's site should have relevant schema. It's not optional infrastructure for AI SEO — it's table stakes.
+
+## Related Terms
+
+- [AEO](/glossary/aeo)
+- [Entity Optimization](/glossary/entity-optimization)
+- [Knowledge Graph](/glossary/knowledge-graph)
+- [Retrieval Layer](/glossary/retrieval-layer)
+- [AI SEO](/glossary/ai-seo)
