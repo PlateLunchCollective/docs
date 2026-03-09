@@ -22,11 +22,6 @@
     "name": "Work With Us",
     "url": "https://platelunchcollective.com/contact"
   },
-  "topAnchor": {
-    "name": "Field Manual",
-    "icon": "book-open",
-    "iconType": "duotone"
-  },
   "anchors": [
     { "name": "Glossary", "icon": "spell-check", "url": "glossary", "color": "#C1440E", "iconType": "duotone" },
     { "name": "Methodology", "icon": "arrows-rotate", "url": "methodology", "color": "#8B5E3C", "iconType": "duotone" },
