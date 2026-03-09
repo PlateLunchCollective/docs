@@ -6,32 +6,39 @@
     "light": "#E8836A",
     "dark": "#C1440E"
   },
-  "navigation": [
-    {
-      "group": "Field Manual",
-      "pages": ["field-manual/introduction"]
-    },
-    {
-      "group": "The 90-Day Sprint",
-      "pages": ["methodology/overview"]
-    },
-    {
-      "group": "Glossary",
-      "pages": [
-        "glossary/ai-seo",
-        "glossary/aeo",
-        "glossary/geo",
-        "glossary/rag",
-        "glossary/entity-optimization",
-        "glossary/citation-architecture",
-        "glossary/retrieval-layer",
-        "glossary/knowledge-graph",
-        "glossary/ai-brand-score",
-        "glossary/topical-authority",
-        "glossary/structured-data",
-        "glossary/ai-traffic",
-        "glossary/social-search"
-      ]
-    }
-  ]
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Docs",
+        "groups": [
+          {
+            "group": "Field Manual",
+            "pages": ["field-manual/introduction"]
+          },
+          {
+            "group": "The 90-Day Sprint",
+            "pages": ["methodology/overview"]
+          },
+          {
+            "group": "Glossary",
+            "pages": [
+              "glossary/ai-seo",
+              "glossary/aeo",
+              "glossary/geo",
+              "glossary/rag",
+              "glossary/entity-optimization",
+              "glossary/citation-architecture",
+              "glossary/retrieval-layer",
+              "glossary/knowledge-graph",
+              "glossary/ai-brand-score",
+              "glossary/topical-authority",
+              "glossary/structured-data",
+              "glossary/ai-traffic",
+              "glossary/social-search"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }
