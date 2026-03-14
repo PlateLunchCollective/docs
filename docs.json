@@ -4,7 +4,8 @@
   "noindex": true,
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "width": 200
   },
   "colors": {
     "primary": "#C1440E",
