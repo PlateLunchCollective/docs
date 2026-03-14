@@ -1,7 +1,7 @@
-<svg width="180" height="44" viewBox="0 0 180 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <text x="0" y="17" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700" letter-spacing="-0.02em" fill="#1C1C1A">Plate Lunch</text>
-  <g transform="translate(38, 24)">
-    <svg viewBox="0 0 1200 1200" width="18" height="18">
+<svg width="200" height="48" viewBox="0 0 200 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="18" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700" letter-spacing="-0.02em" fill="#1C1C1A">Plate Lunch</text>
+  <g transform="translate(50, 25)">
+    <svg viewBox="0 0 1200 1200" width="28" height="28">
       <circle cx="182.4" cy="244.8" r="14.4" fill="#C4704F"/>
       <circle cx="140.4" cy="286.8" r="14.4" fill="#C4704F"/>
       <circle cx="182.4" cy="286.8" r="14.4" fill="#C4704F"/>
@@ -55,5 +55,5 @@
       <circle cx="1018.2" cy="955.2" r="14.4" fill="#C4704F"/>
     </svg>
   </g>
-  <text x="60" y="40" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700" letter-spacing="-0.02em" fill="#1C1C1A">Collective</text>
+  <text x="82" y="44" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="18" font-weight="700" letter-spacing="-0.02em" fill="#1C1C1A">Collective</text>
 </svg>
