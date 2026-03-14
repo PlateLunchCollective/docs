@@ -1,12 +1,59 @@
-<svg width="200" height="52" viewBox="0 0 200 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <text x="0" y="20" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="700" letter-spacing="-0.02em" fill="#1C1C1A">Plate Lunch</text>
-  <g transform="translate(46, 26)">
-    <circle cx="0" cy="4" r="2.5" fill="#C4704F"/>
-    <circle cx="5" cy="2" r="2" fill="#C4704F"/>
-    <circle cx="10" cy="3.5" r="2" fill="#C4704F"/>
-    <circle cx="15" cy="1.5" r="2.5" fill="#C4704F"/>
-    <circle cx="20" cy="3" r="1.5" fill="#C4704F"/>
-    <circle cx="24" cy="0" r="2" fill="#1C1C1A"/>
+<svg width="200" height="44" viewBox="0 0 200 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <text x="0" y="16" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="700" letter-spacing="-0.02em" fill="#1C1C1A">Plate Lunch</text>
+  <g transform="translate(16, 22)">
+    <svg viewBox="140 244 1046 712" width="40" height="20" fill="none">
+      <circle cx="182.4" cy="244.8" r="14.4" fill="#C4704F"/>
+      <circle cx="140.4" cy="286.8" r="14.4" fill="#C4704F"/>
+      <circle cx="182.4" cy="286.8" r="14.4" fill="#C4704F"/>
+      <circle cx="223.2" cy="286.8" r="14.4" fill="#C4704F"/>
+      <circle cx="182.4" cy="328.8" r="14.4" fill="#C4704F"/>
+      <circle cx="516" cy="369.6" r="14.4" fill="#C4704F"/>
+      <circle cx="474" cy="411.6" r="14.4" fill="#C4704F"/>
+      <circle cx="516" cy="411.6" r="14.4" fill="#1C1C1A"/>
+      <circle cx="474" cy="453.6" r="14.4" fill="#C4704F"/>
+      <circle cx="516" cy="453.6" r="14.4" fill="#C4704F"/>
+      <circle cx="558" cy="453.6" r="14.4" fill="#C4704F"/>
+      <circle cx="684" cy="495.6" r="14.4" fill="#C4704F"/>
+      <circle cx="726" cy="495.6" r="14.4" fill="#C4704F"/>
+      <circle cx="767.4" cy="495.6" r="14.4" fill="#C4704F"/>
+      <circle cx="767.4" cy="537.6" r="14.4" fill="#C4704F"/>
+      <circle cx="809.4" cy="537.6" r="14.4" fill="#C4704F"/>
+      <circle cx="851.4" cy="537.6" r="14.4" fill="#C4704F"/>
+      <circle cx="726" cy="579.6" r="14.4" fill="#C4704F"/>
+      <circle cx="809.4" cy="579.6" r="14.4" fill="#C4704F"/>
+      <circle cx="851.4" cy="579.6" r="14.4" fill="#C4704F"/>
+      <circle cx="893.4" cy="579.6" r="14.4" fill="#C4704F"/>
+      <circle cx="935.4" cy="579.6" r="14.4" fill="#C4704F"/>
+      <circle cx="851.4" cy="620.4" r="14.4" fill="#C4704F"/>
+      <circle cx="893.4" cy="620.4" r="14.4" fill="#C4704F"/>
+      <circle cx="977.4" cy="704.4" r="14.4" fill="#C4704F"/>
+      <circle cx="977.4" cy="746.4" r="14.4" fill="#C4704F"/>
+      <circle cx="1018.2" cy="746.4" r="14.4" fill="#C4704F"/>
+      <circle cx="1060.2" cy="746.4" r="14.4" fill="#C4704F"/>
+      <circle cx="935.4" cy="788.4" r="14.4" fill="#C4704F"/>
+      <circle cx="977.4" cy="788.4" r="14.4" fill="#C4704F"/>
+      <circle cx="1018.2" cy="788.4" r="14.4" fill="#C4704F"/>
+      <circle cx="1060.2" cy="788.4" r="14.4" fill="#C4704F"/>
+      <circle cx="1101.6" cy="788.4" r="14.4" fill="#C4704F"/>
+      <circle cx="935.4" cy="830.4" r="14.4" fill="#C4704F"/>
+      <circle cx="977.4" cy="830.4" r="14.4" fill="#C4704F"/>
+      <circle cx="1018.2" cy="830.4" r="14.4" fill="#C4704F"/>
+      <circle cx="1060.2" cy="830.4" r="14.4" fill="#C4704F"/>
+      <circle cx="1101.6" cy="830.4" r="14.4" fill="#C4704F"/>
+      <circle cx="1143.6" cy="830.4" r="14.4" fill="#C4704F"/>
+      <circle cx="977.4" cy="871.2" r="14.4" fill="#C4704F"/>
+      <circle cx="1018.2" cy="871.2" r="14.4" fill="#C4704F"/>
+      <circle cx="1060.2" cy="871.2" r="14.4" fill="#C4704F"/>
+      <circle cx="1101.6" cy="871.2" r="14.4" fill="#C4704F"/>
+      <circle cx="1143.6" cy="871.2" r="14.4" fill="#C4704F"/>
+      <circle cx="1185.6" cy="871.2" r="14.4" fill="#C4704F"/>
+      <circle cx="977.4" cy="913.2" r="14.4" fill="#C4704F"/>
+      <circle cx="1018.2" cy="913.2" r="14.4" fill="#C4704F"/>
+      <circle cx="1060.2" cy="913.2" r="14.4" fill="#C4704F"/>
+      <circle cx="1101.6" cy="913.2" r="14.4" fill="#C4704F"/>
+      <circle cx="977.4" cy="955.2" r="14.4" fill="#C4704F"/>
+      <circle cx="1018.2" cy="955.2" r="14.4" fill="#C4704F"/>
+    </svg>
   </g>
-  <text x="74" y="48" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="20" font-weight="700" letter-spacing="-0.02em" fill="#1C1C1A">Collective</text>
+  <text x="62" y="42" font-family="system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="700" letter-spacing="-0.02em" fill="#1C1C1A">Collective</text>
 </svg>
