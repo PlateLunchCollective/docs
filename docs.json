@@ -14,7 +14,12 @@
         "groups": [
           {
             "group": "Glossary",
-            "pages": ["ai-search-glossary/index"]
+            "pages": [
+            {
+              "page": "ai-search-glossary/index",
+              "label": "AI Search Glossary"
+            }
+          ]
           }
         ]
       },
