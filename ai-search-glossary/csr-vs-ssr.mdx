@@ -1,0 +1,28 @@
+---
+title: "Client-Side Rendering vs Server-Side Rendering"
+description: "Client-side rendering (CSR) generates page content in the user's browser using JavaScript after the initial page load."
+---
+
+*Technical implementation* · *AI Search Infrastructure*
+
+## Definition
+
+Client-side rendering (CSR) generates page content in the user's browser using JavaScript after the initial page load. Server-side rendering (SSR) generates the full page HTML on the server before delivery, so the complete content is present in the initial response. Static site generation (SSG) pre-renders pages at build time.
+
+## Why It Matters for AI Search
+
+AI crawlers generally cannot execute JavaScript, which means CSR pages may be indexed as empty or near-empty. SSR and SSG ensure that content is present in the HTML that crawlers receive. For Next.js sites specifically — a very common modern React framework — SSR and SSG are built-in options that make AI discoverability straightforward to achieve without sacrificing the benefits of a JavaScript frontend.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="HTML-first development" href="/ai-search-glossary/html-first-development" />
+  <Card title="Machine readability" href="/ai-search-glossary/machine-readability" />
+  <Card title="Indexability" href="/ai-search-glossary/indexability" />
+  <Card title="Technical SEO" href="/ai-search-glossary/technical-seo" />
+  <Card title="AI Crawler" href="/ai-search-glossary/ai-crawler" />
+</CardGroup>
+
+## Relevant PLC Services
+
+[AI SEO](/services/ai-seo)

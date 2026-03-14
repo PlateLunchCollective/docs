@@ -1,0 +1,28 @@
+---
+title: "Context Window"
+description: "A context window is the maximum amount of text — measured in tokens — that a language model can process in a single inference call."
+---
+
+*Technical implementation* · *Emerging*
+
+## Definition
+
+A context window is the maximum amount of text — measured in tokens — that a language model can process in a single inference call. Content within the context window is available for the model to reason about; content outside it must be retrieved separately or is unavailable.
+
+## Why It Matters for AI Search
+
+Context window size determines how much source material an AI system can process when generating a response. For RAG systems, the context window sets the upper limit on how many retrieved passages can be included before answer synthesis. For content strategy, understanding context windows explains why concise, front-loaded content often performs better than long, detailed content in AI extraction — the model is working within a token budget, and content that reaches its key claims early is more likely to survive the context window than content that builds to its conclusion.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Tokenization" href="/ai-search-glossary/tokenization" />
+  <Card title="Chunking" href="/ai-search-glossary/chunking" />
+  <Card title="RAG" href="/ai-search-glossary/rag" />
+  <Card title="Retrieval pipeline" href="/ai-search-glossary/retrieval-pipeline" />
+  <Card title="Content extractability" href="/ai-search-glossary/content-extractability" />
+</CardGroup>
+
+## Relevant PLC Services
+
+[AI SEO](/services/ai-seo)  [Citation-Ready Content](/services/citation-content)

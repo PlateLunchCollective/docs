@@ -10,33 +10,75 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Docs",
+        "tab": "Reference",
         "groups": [
           {
-            "group": "Field Manual",
-            "pages": ["field-manual/introduction"]
+            "group": "AI Search Glossary",
+            "pages": ["ai-search-glossary/index"]
+          }
+        ]
+      },
+      {
+        "tab": "Services",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": ["services/index"]
           },
           {
-            "group": "The 90-Day Sprint",
-            "pages": ["methodology/overview"]
-          },
-          {
-            "group": "Glossary",
+            "group": "Service Explainers",
             "pages": [
-              "glossary/ai-seo",
-              "glossary/aeo",
-              "glossary/geo",
-              "glossary/rag",
-              "glossary/entity-optimization",
-              "glossary/citation-architecture",
-              "glossary/retrieval-layer",
-              "glossary/knowledge-graph",
-              "glossary/ai-brand-score",
-              "glossary/topical-authority",
-              "glossary/structured-data",
-              "glossary/ai-traffic",
-              "glossary/social-search"
-              "glossary/llm-visibility"
+              "services/ai-seo",
+              "services/aeo",
+              "services/entity-seo",
+              "services/social-search",
+              "services/citation-content",
+              "services/context-map",
+              "services/ai-fluency",
+              "services/fractional-cmo"
+            ]
+          },
+          {
+            "group": "FAQ",
+            "pages": [
+              "faq/general",
+              "faq/ai-seo",
+              "faq/entity-seo",
+              "faq/context-map",
+              "faq/fractional-cmo",
+              "faq/engagement"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Methodology",
+        "groups": [
+          {
+            "group": "About",
+            "pages": ["about"]
+          },
+          {
+            "group": "How We Think",
+            "pages": [
+              "methodology/manifesto",
+              "methodology/sprint",
+              "methodology/csd",
+              "methodology/changelog"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Tools",
+        "groups": [
+          {
+            "group": "AI Search Tools",
+            "pages": [
+              "tools/ai-search-monitoring",
+              "tools/entity-seo",
+              "tools/technical-seo",
+              "tools/social-search"
             ]
           }
         ]
