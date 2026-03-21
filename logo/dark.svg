@@ -1,2 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="160" height="48" viewBox="0 0 160 48" fill="none" xmlns="http://www.w3.org/2000/svg"><text x="0" y="22" font-family="system-ui, -apple-system, &#x27;Segoe UI&#x27;, Roboto, sans-serif" font-size="20" font-weight="700" letter-spacing="-0.4" fill="#F5F0E8">Plate Lunch</text><g transform="translate(69, 28)"><g transform="scale(0.02)"><circle cx="182.4" cy="244.8" r="45" fill="#C4704F"></circle><circle cx="140.4" cy="286.8" r="45" fill="#C4704F"></circle><circle cx="182.4" cy="286.8" r="45" fill="#C4704F"></circle><circle cx="223.2" cy="286.8" r="45" fill="#C4704F"></circle><circle cx="182.4" cy="328.8" r="45" fill="#C4704F"></circle><circle cx="516" cy="369.6" r="45" fill="#C4704F"></circle><circle cx="474" cy="411.6" r="45" fill="#C4704F"></circle><circle cx="516" cy="411.6" r="45" fill="#F5F0E8"></circle><circle cx="474" cy="453.6" r="45" fill="#C4704F"></circle><circle cx="516" cy="453.6" r="45" fill="#C4704F"></circle><circle cx="558" cy="453.6" r="45" fill="#C4704F"></circle><circle cx="684" cy="495.6" r="45" fill="#C4704F"></circle><circle cx="726" cy="495.6" r="45" fill="#C4704F"></circle><circle cx="767.4" cy="495.6" r="45" fill="#C4704F"></circle><circle cx="767.4" cy="537.6" r="45" fill="#C4704F"></circle><circle cx="809.4" cy="537.6" r="45" fill="#C4704F"></circle><circle cx="851.4" cy="537.6" r="45" fill="#C4704F"></circle><circle cx="726" cy="579.6" r="45" fill="#C4704F"></circle><circle cx="809.4" cy="579.6" r="45" fill="#C4704F"></circle><circle cx="851.4" cy="579.6" r="45" fill="#C4704F"></circle><circle cx="893.4" cy="579.6" r="45" fill="#C4704F"></circle><circle cx="935.4" cy="579.6" r="45" fill="#C4704F"></circle><circle cx="851.4" cy="620.4" r="45" fill="#C4704F"></circle><circle cx="893.4" cy="620.4" r="45" fill="#C4704F"></circle><circle cx="977.4" cy="704.4" r="45" fill="#C4704F"></circle><circle cx="977.4" cy="746.4" r="45" fill="#C4704F"></circle><circle cx="1018.2" cy="746.4" r="45" fill="#C4704F"></circle><circle cx="1060.2" cy="746.4" r="45" fill="#C4704F"></circle><circle cx="935.4" cy="788.4" r="45" fill="#C4704F"></circle><circle cx="977.4" cy="788.4" r="45" fill="#C4704F"></circle><circle cx="1018.2" cy="788.4" r="45" fill="#C4704F"></circle><circle cx="1060.2" cy="788.4" r="45" fill="#C4704F"></circle><circle cx="1101.6" cy="788.4" r="45" fill="#C4704F"></circle><circle cx="935.4" cy="830.4" r="45" fill="#C4704F"></circle><circle cx="977.4" cy="830.4" r="45" fill="#C4704F"></circle><circle cx="1018.2" cy="830.4" r="45" fill="#C4704F"></circle><circle cx="1060.2" cy="830.4" r="45" fill="#C4704F"></circle><circle cx="1101.6" cy="830.4" r="45" fill="#C4704F"></circle><circle cx="1143.6" cy="830.4" r="45" fill="#C4704F"></circle><circle cx="977.4" cy="871.2" r="45" fill="#C4704F"></circle><circle cx="1018.2" cy="871.2" r="45" fill="#C4704F"></circle><circle cx="1060.2" cy="871.2" r="45" fill="#C4704F"></circle><circle cx="1101.6" cy="871.2" r="45" fill="#C4704F"></circle><circle cx="1143.6" cy="871.2" r="45" fill="#C4704F"></circle><circle cx="1185.6" cy="871.2" r="45" fill="#C4704F"></circle><circle cx="977.4" cy="913.2" r="45" fill="#C4704F"></circle><circle cx="1018.2" cy="913.2" r="45" fill="#C4704F"></circle><circle cx="1060.2" cy="913.2" r="45" fill="#C4704F"></circle><circle cx="1101.6" cy="913.2" r="45" fill="#C4704F"></circle><circle cx="977.4" cy="955.2" r="45" fill="#C4704F"></circle><circle cx="1018.2" cy="955.2" r="45" fill="#C4704F"></circle></g></g><text x="160" y="48" text-anchor="end" font-family="system-ui, -apple-system, &#x27;Segoe UI&#x27;, Roboto, sans-serif" font-size="20" font-weight="700" letter-spacing="-0.4" fill="#F5F0E8">Collective</text></svg>
+<svg width="32" height="32" viewBox="0 0 1200 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="182.4" cy="244.8" r="45" fill="#C4704F"/>
+  <circle cx="140.4" cy="286.8" r="45" fill="#C4704F"/>
+  <circle cx="182.4" cy="286.8" r="45" fill="#C4704F"/>
+  <circle cx="223.2" cy="286.8" r="45" fill="#C4704F"/>
+  <circle cx="182.4" cy="328.8" r="45" fill="#C4704F"/>
+  <circle cx="433" cy="349.6" r="45" fill="#C4704F"/>
+  <circle cx="391" cy="391.6" r="45" fill="#C4704F"/>
+  <circle cx="433" cy="391.6" r="45" fill="#C4704F"/>
+  <circle cx="391" cy="433.6" r="45" fill="#C4704F"/>
+  <circle cx="433" cy="433.6" r="45" fill="#C4704F"/>
+  <circle cx="475" cy="433.6" r="45" fill="#C4704F"/>
+  <circle cx="684" cy="495.6" r="45" fill="#C4704F"/>
+  <circle cx="726" cy="495.6" r="45" fill="#C4704F"/>
+  <circle cx="767.4" cy="495.6" r="45" fill="#C4704F"/>
+  <circle cx="767.4" cy="537.6" r="45" fill="#C4704F"/>
+  <circle cx="809.4" cy="537.6" r="45" fill="#C4704F"/>
+  <circle cx="851.4" cy="537.6" r="45" fill="#C4704F"/>
+  <circle cx="726" cy="579.6" r="45" fill="#C4704F"/>
+  <circle cx="809.4" cy="579.6" r="45" fill="#C4704F"/>
+  <circle cx="851.4" cy="579.6" r="45" fill="#C4704F"/>
+  <circle cx="893.4" cy="579.6" r="45" fill="#C4704F"/>
+  <circle cx="935.4" cy="579.6" r="45" fill="#C4704F"/>
+  <circle cx="851.4" cy="620.4" r="45" fill="#C4704F"/>
+  <circle cx="893.4" cy="620.4" r="45" fill="#C4704F"/>
+  <circle cx="977.4" cy="704.4" r="45" fill="#C4704F"/>
+  <circle cx="977.4" cy="746.4" r="45" fill="#C4704F"/>
+  <circle cx="1018.2" cy="746.4" r="45" fill="#C4704F"/>
+  <circle cx="1060.2" cy="746.4" r="45" fill="#C4704F"/>
+  <circle cx="935.4" cy="788.4" r="45" fill="#C4704F"/>
+  <circle cx="977.4" cy="788.4" r="45" fill="#C4704F"/>
+  <circle cx="1018.2" cy="788.4" r="45" fill="#C4704F"/>
+  <circle cx="1060.2" cy="788.4" r="45" fill="#C4704F"/>
+  <circle cx="1101.6" cy="788.4" r="45" fill="#C4704F"/>
+  <circle cx="935.4" cy="830.4" r="45" fill="#C4704F"/>
+  <circle cx="977.4" cy="830.4" r="45" fill="#C4704F"/>
+  <circle cx="1018.2" cy="830.4" r="45" fill="#C4704F"/>
+  <circle cx="1060.2" cy="830.4" r="45" fill="#C4704F"/>
+  <circle cx="1101.6" cy="830.4" r="45" fill="#C4704F"/>
+  <circle cx="1143.6" cy="830.4" r="45" fill="#C4704F"/>
+  <circle cx="977.4" cy="871.2" r="45" fill="#C4704F"/>
+  <circle cx="1018.2" cy="871.2" r="45" fill="#C4704F"/>
+  <circle cx="1060.2" cy="871.2" r="45" fill="#C4704F"/>
+  <circle cx="1101.6" cy="871.2" r="45" fill="#C4704F"/>
+  <circle cx="1143.6" cy="871.2" r="45" fill="#C4704F"/>
+  <circle cx="1185.6" cy="871.2" r="45" fill="#C4704F"/>
+  <circle cx="977.4" cy="913.2" r="45" fill="#C4704F"/>
+  <circle cx="1018.2" cy="913.2" r="45" fill="#C4704F"/>
+  <circle cx="1060.2" cy="913.2" r="45" fill="#C4704F"/>
+  <circle cx="1101.6" cy="913.2" r="45" fill="#C4704F"/>
+  <circle cx="977.4" cy="955.2" r="45" fill="#C4704F"/>
+  <circle cx="1018.2" cy="955.2" r="45" fill="#C4704F"/>
+</svg>
