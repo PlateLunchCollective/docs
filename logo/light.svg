@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="220" height="28" viewBox="0 0 220 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Hawaii Islands Icon -->
-  <g transform="translate(0, 2) scale(0.024)">
+<svg width="160" height="44" viewBox="0 0 160 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Line 1: Plate Lunch - left aligned -->
+  <text x="0" y="16" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" letter-spacing="-0.34" fill="#1C1C1A">Plate Lunch</text>
+
+  <!-- Line 2: Island chain + Collective - right aligned -->
+  <!-- Hawaii Island Chain (scaled and positioned) -->
+  <g transform="translate(62, 24) scale(0.016)">
+    <!-- Niihau/Kauai -->
     <circle cx="182.4" cy="244.8" r="45" fill="#C4704F"/>
     <circle cx="140.4" cy="286.8" r="45" fill="#C4704F"/>
     <circle cx="182.4" cy="286.8" r="45" fill="#C4704F"/>
     <circle cx="223.2" cy="286.8" r="45" fill="#C4704F"/>
     <circle cx="182.4" cy="328.8" r="45" fill="#C4704F"/>
-    <circle cx="433" cy="349.6" r="45" fill="#C4704F"/>
-    <circle cx="391" cy="391.6" r="45" fill="#C4704F"/>
-    <circle cx="433" cy="391.6" r="45" fill="#C4704F"/>
-    <circle cx="391" cy="433.6" r="45" fill="#C4704F"/>
-    <circle cx="433" cy="433.6" r="45" fill="#C4704F"/>
-    <circle cx="475" cy="433.6" r="45" fill="#C4704F"/>
+    <!-- Oahu with location dot -->
+    <circle cx="516" cy="369.6" r="45" fill="#C4704F"/>
+    <circle cx="474" cy="411.6" r="45" fill="#C4704F"/>
+    <circle cx="516" cy="411.6" r="45" fill="#1C1C1A"/>
+    <circle cx="474" cy="453.6" r="45" fill="#C4704F"/>
+    <circle cx="516" cy="453.6" r="45" fill="#C4704F"/>
+    <circle cx="558" cy="453.6" r="45" fill="#C4704F"/>
+    <!-- Molokai/Maui -->
     <circle cx="684" cy="495.6" r="45" fill="#C4704F"/>
     <circle cx="726" cy="495.6" r="45" fill="#C4704F"/>
     <circle cx="767.4" cy="495.6" r="45" fill="#C4704F"/>
@@ -26,6 +33,7 @@
     <circle cx="935.4" cy="579.6" r="45" fill="#C4704F"/>
     <circle cx="851.4" cy="620.4" r="45" fill="#C4704F"/>
     <circle cx="893.4" cy="620.4" r="45" fill="#C4704F"/>
+    <!-- Big Island -->
     <circle cx="977.4" cy="704.4" r="45" fill="#C4704F"/>
     <circle cx="977.4" cy="746.4" r="45" fill="#C4704F"/>
     <circle cx="1018.2" cy="746.4" r="45" fill="#C4704F"/>
@@ -54,6 +62,7 @@
     <circle cx="977.4" cy="955.2" r="45" fill="#C4704F"/>
     <circle cx="1018.2" cy="955.2" r="45" fill="#C4704F"/>
   </g>
-  <!-- Wordmark -->
-  <text x="36" y="19" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="600" letter-spacing="-0.3" fill="#1C1C1A">Plate Lunch Collective</text>
+
+  <!-- Collective text - right aligned -->
+  <text x="160" y="40" text-anchor="end" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" letter-spacing="-0.34" fill="#1C1C1A">Collective</text>
 </svg>
