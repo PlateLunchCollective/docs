@@ -33,8 +33,19 @@
         "tab": "Glossary",
         "groups": [
           {
-            "group": "Glossary",
-            "pages": ["ai-search-glossary/index"]
+            "group": "AI Search Glossary",
+            "pages": [
+              "ai-search-glossary/index",
+              "ai-search-glossary/aeo",
+              "ai-search-glossary/ai-seo",
+              "ai-search-glossary/geo",
+              "ai-search-glossary/rag",
+              "ai-search-glossary/entity-optimization",
+              "ai-search-glossary/retrieval-layer",
+              "ai-search-glossary/knowledge-graph",
+              "ai-search-glossary/topical-authority",
+              "ai-search-glossary/structured-data"
+            ]
           }
         ]
       },
