@@ -91,6 +91,15 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Field Notes",
+        "groups": [
+          {
+            "group": "Field Notes",
+            "pages": ["field-notes/index"]
+          }
+        ]
       }
     ]
   }
