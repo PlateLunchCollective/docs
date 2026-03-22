@@ -12,6 +12,13 @@
     "dark": "#C1440E"
   },
   "navigation": {
+    "anchors": [
+      {
+        "anchor": "Home",
+        "icon": "home",
+        "pages": ["index"]
+      }
+    ],
     "tabs": [
       {
         "tab": "Glossary",
