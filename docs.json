@@ -83,7 +83,6 @@
             "pages": [
               "methodology/manifesto",
               "methodology/sprint",
-              "methodology/csd",
               "methodology/changelog"
             ]
           }
@@ -108,7 +107,7 @@
         "groups": [
           {
             "group": "Field Notes",
-            "pages": ["field-notes/index"]
+            "pages": ["field-notes/index", "field-notes/csd"]
           }
         ]
       }
