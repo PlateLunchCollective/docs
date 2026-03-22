@@ -63,8 +63,12 @@
             "pages": [
               "faq/general",
               "faq/ai-seo",
+              "faq/aeo",
               "faq/entity-seo",
+              "faq/social-search",
+              "faq/citation-content",
               "faq/context-map",
+              "faq/ai-search-visibility",
               "faq/fractional-cmo",
               "faq/engagement"
             ]
