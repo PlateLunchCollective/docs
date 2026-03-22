@@ -21,6 +21,15 @@
     ],
     "tabs": [
       {
+        "tab": "Home",
+        "groups": [
+          {
+            "group": "Home",
+            "pages": ["index"]
+          }
+        ]
+      },
+      {
         "tab": "Glossary",
         "groups": [
           {
