@@ -15,15 +15,6 @@
       "tagId": "GTM-NCVV2ZGQ"
     }
   },
-  "headTags": [
-    {
-      "tag": "meta",
-      "attributes": {
-        "name": "msvalidate.01",
-        "content": "3D89C077531DA8C310E32C2A4D5C3DAE"
-      }
-    }
-  ],
   "navigation": {
     "anchors": [
       {
