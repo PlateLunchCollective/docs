@@ -1,7 +1,6 @@
 {
   "name": "Plate Lunch Collective",
   "theme": "mint",
-  "noindex": true,
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
