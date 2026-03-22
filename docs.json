@@ -79,10 +79,6 @@
         "tab": "Methodology",
         "groups": [
           {
-            "group": "About",
-            "pages": ["about"]
-          },
-          {
             "group": "How We Think",
             "pages": [
               "methodology/manifesto",
