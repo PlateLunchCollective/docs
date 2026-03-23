@@ -10,9 +10,12 @@
     "light": "#E8836A",
     "dark": "#C1440E"
   },
-  "topbarCtaButton": {
-    "name": "Back to Plate Lunch Collective",
-    "url": "https://platelunchcollective.com"
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Back to Plate Lunch Collective",
+      "href": "https://platelunchcollective.com"
+    }
   },
   "navigation": {
     "anchors": [
