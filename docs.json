@@ -10,11 +10,6 @@
     "light": "#E8836A",
     "dark": "#C1440E"
   },
-  "analytics": {
-    "gtm": {
-      "tagId": "GTM-NCVV2ZGQ"
-    }
-  },
   "navigation": {
     "anchors": [
       {
