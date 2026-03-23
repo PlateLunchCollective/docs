@@ -111,5 +111,10 @@
         ]
       }
     ]
+  },
+  "integrations": {
+    "gtm": {
+      "tagId": "GTM-NCVV2ZGQ"
+    }
   }
 }
