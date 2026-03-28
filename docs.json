@@ -119,6 +119,9 @@
       }
     ]
   },
+  "seo": {
+    "indexing": "all"
+  },
   "integrations": {
     "gtm": {
       "tagId": "GTM-NCVV2ZGQ"
