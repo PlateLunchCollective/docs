@@ -1,0 +1,28 @@
+---
+title: "Context Assembly"
+description: "Context assembly is the process of selecting, ordering, and inserting retrieved chunks into the context window the language model uses to generate a response."
+---
+
+*Technical implementation* · *AI Search Infrastructure*
+
+## Definition
+
+Context assembly is the process of selecting, ordering, and inserting retrieved chunks into the context window the language model uses to generate a response. The assembled context, combined with the query, is what the model conditions its output on.
+
+## Why It Matters for AI Search
+
+Context assembly is not a neutral operation. The order in which chunks are placed in the context window affects how much attention the model pays to each one — a consequence of the lost-in-the-middle position bias. A chunk that retrieves well and ranks well in reranking can still have reduced influence if it lands in the middle of a long assembled context. Content that front-loads its answer is more robust to position effects because the key claim appears near the chunk boundary rather than buried within it.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Context rot" href="/ai-search-glossary/context-rot" />
+  <Card title="Lost in the middle" href="/ai-search-glossary/lost-in-the-middle" />
+  <Card title="Reranking" href="/ai-search-glossary/reranking" />
+  <Card title="Context window" href="/ai-search-glossary/context-window" />
+  <Card title="Retrieval pipeline" href="/ai-search-glossary/retrieval-pipeline" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[Citation-Ready Content](/services/citation-content)  [AI SEO](/services/ai-seo)

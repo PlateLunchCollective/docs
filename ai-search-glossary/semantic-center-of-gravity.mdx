@@ -1,0 +1,28 @@
+---
+title: "Semantic Center of Gravity"
+description: "The semantic center of gravity is the dominant conceptual direction of a passage's embedding vector."
+---
+
+*Core concept* · *AI Search Infrastructure*
+
+## Definition
+
+The semantic center of gravity is the dominant conceptual direction of a passage's embedding vector. A passage with a single, clear semantic center produces an embedding that points consistently toward one cluster in vector space. A passage with multiple competing topics has a diffuse embedding pulled in multiple directions simultaneously.
+
+## Why It Matters for AI Search
+
+The semantic center of gravity is the mechanism behind the structural rule of one question per section. A passage can be long and technically detailed, as long as everything in it contributes to the same conceptual direction. The moment a section begins addressing a second question, the embedding starts drifting — the vector moves away from the first cluster without fully entering the second. Both retrieval targets suffer.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Semantic density" href="/ai-search-glossary/semantic-density" />
+  <Card title="Embedding drift" href="/ai-search-glossary/embedding-drift" />
+  <Card title="Topic coherence" href="/ai-search-glossary/topic-coherence" />
+  <Card title="Embedding" href="/ai-search-glossary/embedding" />
+  <Card title="Cosine similarity" href="/ai-search-glossary/cosine-similarity" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[Citation-Ready Content](/services/citation-content)  [AI SEO](/services/ai-seo)

@@ -1,0 +1,28 @@
+---
+title: "Fixed-size Chunking"
+description: "Fixed-size chunking splits content at a set character or token count regardless of topic boundaries."
+---
+
+*Technical implementation* · *AI Search Infrastructure*
+
+## Definition
+
+Fixed-size chunking splits content at a set character or token count regardless of topic boundaries. Each chunk is embedded and retrieved independently.
+
+## Why It Matters for AI Search
+
+Fast and simple to implement, but produces a predictable failure mode: a coherent argument split across two chunks causes neither to retrieve well for the concept the argument expresses. The chunk boundary lands in the middle of the reasoning, and both halves are incomplete. Content that front-loads its answer is more robust to this — the key claim lands in the first chunk regardless of where the boundary falls.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Chunking" href="/ai-search-glossary/chunking" />
+  <Card title="Semantic chunking" href="/ai-search-glossary/semantic-chunking" />
+  <Card title="Overlap" href="/ai-search-glossary/overlap" />
+  <Card title="Embedding" href="/ai-search-glossary/embedding" />
+  <Card title="RAG" href="/ai-search-glossary/rag" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[Citation-Ready Content](/services/citation-content)  [AI SEO](/services/ai-seo)

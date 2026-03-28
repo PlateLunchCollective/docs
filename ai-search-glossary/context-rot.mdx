@@ -1,0 +1,32 @@
+---
+title: "Context Rot"
+description: "Context rot is the degradation of a retrieved chunk's effective influence on a model's response based on its position in the assembled context, not its relevance."
+---
+
+*Technical implementation* · *AI Search Infrastructure*
+
+## Definition
+
+Context rot is the degradation of a retrieved chunk's effective influence on a model's response based on its position in the assembled context, not its relevance. A chunk can pass first-pass retrieval, score well in reranking, and still have minimal influence if it ends up in the middle of a long context window.
+
+## Why It Matters for AI Search
+
+Context rot is the retrieval failure mode that happens after retrieval. The content made it into the context — it did everything right — but lands in a position where the model's attention is weakest. Longer context windows do not eliminate this problem; they change it. More retrieved content in context means more opportunity for good content to land in the middle. Answer-first structure is the content-side mitigation: the key claim appears near the start of the chunk, closer to a context boundary.
+
+## Common Misconception
+
+Longer context windows solve the context rot problem. They do not — they move the problem. The position bias effect is a function of the attention mechanism, not of context length limits.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Lost in the middle" href="/ai-search-glossary/lost-in-the-middle" />
+  <Card title="Context assembly" href="/ai-search-glossary/context-assembly" />
+  <Card title="Context window" href="/ai-search-glossary/context-window" />
+  <Card title="Reranking" href="/ai-search-glossary/reranking" />
+  <Card title="First-pass retrieval" href="/ai-search-glossary/first-pass-retrieval" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[Citation-Ready Content](/services/citation-content)  [AI SEO](/services/ai-seo)

@@ -1,0 +1,28 @@
+---
+title: "First-pass Retrieval"
+description: "First-pass retrieval is the initial stage of a retrieval pipeline where a query embedding is compared against the full index using approximate nearest neighbor search."
+---
+
+*Technical implementation* · *AI Search Infrastructure*
+
+## Definition
+
+First-pass retrieval is the initial stage of a retrieval pipeline where a query embedding is compared against the full index using approximate nearest neighbor search, returning a candidate set of top-k chunks. Its goal is recall — getting all potentially relevant chunks into the room — not precision.
+
+## Why It Matters for AI Search
+
+Content that does not make the first-pass candidate set cannot be cited, regardless of how relevant it actually is. Semantic density and topic coherence determine whether content lands close enough to the query in vector space to be included. Precision — selecting the best answer from the candidate set — is handled by the reranker in the next stage.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Reranking" href="/ai-search-glossary/reranking" />
+  <Card title="Approximate nearest neighbor search" href="/ai-search-glossary/approximate-nearest-neighbor-search" />
+  <Card title="Embedding" href="/ai-search-glossary/embedding" />
+  <Card title="Cosine similarity" href="/ai-search-glossary/cosine-similarity" />
+  <Card title="Retrieval pipeline" href="/ai-search-glossary/retrieval-pipeline" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[Citation-Ready Content](/services/citation-content)  [AI SEO](/services/ai-seo)

@@ -1,0 +1,32 @@
+---
+title: "OAI-SearchBot"
+description: "OAI-SearchBot is OpenAI's dedicated search crawler, used to index web content for ChatGPT's search features."
+---
+
+*Technical implementation* · *AI Search Infrastructure*
+
+## Definition
+
+OAI-SearchBot is OpenAI's dedicated search crawler, used to index web content for ChatGPT's search features. It is distinct from GPTBot, which crawls for training data. Blocking OAI-SearchBot in robots.txt removes content from ChatGPT search results entirely without affecting training data collection.
+
+## Why It Matters for AI Search
+
+The OAI-SearchBot / GPTBot distinction is the most commonly misunderstood aspect of ChatGPT crawl configuration. A site that blocks GPTBot to prevent training data collection does not affect ChatGPT search result eligibility — that is controlled by OAI-SearchBot separately. Each crawler can be allowed or blocked independently in robots.txt.
+
+## Common Misconception
+
+Blocking GPTBot prevents content from appearing in ChatGPT search results. It does not — GPTBot is the training data crawler. OAI-SearchBot is the search indexing crawler, and they are controlled separately.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="GPTBot" href="/ai-search-glossary/gptbot" />
+  <Card title="PerplexityBot" href="/ai-search-glossary/perplexitybot" />
+  <Card title="Indexability" href="/ai-search-glossary/indexability" />
+  <Card title="Retrieval pipeline" href="/ai-search-glossary/retrieval-pipeline" />
+  <Card title="AI Crawler" href="/ai-search-glossary/ai-crawler" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[AI SEO](/services/ai-seo)

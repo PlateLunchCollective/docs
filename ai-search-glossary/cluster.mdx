@@ -1,0 +1,28 @@
+---
+title: "Cluster (Vector Space)"
+description: "A cluster is a region in vector space where semantically similar texts are grouped."
+---
+
+*Technical implementation* · *AI Search Infrastructure*
+
+## Definition
+
+A cluster is a region in vector space where semantically similar texts are grouped. Content about the same topic occupies nearby positions; content about different topics occupies distant positions. Retrieval finds the content nearest to a query's position in this space.
+
+## Why It Matters for AI Search
+
+Understanding clusters explains why mixed-topic content retrieves poorly for everything. A passage that splits its meaning between two topics lands between two clusters — close to neither one. A passage that stays within one cluster retrieves consistently for all queries that land in that region. The structural instruction — one topic per section — is a geometric instruction: stay inside one cluster.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Semantic center of gravity" href="/ai-search-glossary/semantic-center-of-gravity" />
+  <Card title="Embedding drift" href="/ai-search-glossary/embedding-drift" />
+  <Card title="Topic coherence" href="/ai-search-glossary/topic-coherence" />
+  <Card title="Cosine similarity" href="/ai-search-glossary/cosine-similarity" />
+  <Card title="Vector database" href="/ai-search-glossary/vector-database" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[AI SEO](/services/ai-seo)

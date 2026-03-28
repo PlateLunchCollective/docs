@@ -1,0 +1,28 @@
+---
+title: "Ingestion Pipeline"
+description: "An ingestion pipeline is the full sequence of steps that prepares content for retrieval: crawling, parsing, cleaning, chunking, embedding, and storing in the vector index."
+---
+
+*Technical implementation* · *AI Search Infrastructure*
+
+## Definition
+
+An ingestion pipeline is the full sequence of steps that prepares content for retrieval: crawling, parsing, cleaning, chunking, embedding, and storing in the vector index. Problems at any stage affect retrieval even if the content and retrieval model are both good.
+
+## Why It Matters for AI Search
+
+The ingestion pipeline is where technical failures become invisible citation failures. Content that renders in JavaScript but is not server-rendered may not be parsed. Content chunked at the wrong boundaries may not embed coherently. Content that is not re-ingested after updates may retrieve from a stale version. Understanding the ingestion pipeline explains why technical SEO and AI citation optimization are not separate disciplines.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Chunking" href="/ai-search-glossary/chunking" />
+  <Card title="Embedding" href="/ai-search-glossary/embedding" />
+  <Card title="Retrieval pipeline" href="/ai-search-glossary/retrieval-pipeline" />
+  <Card title="Indexability" href="/ai-search-glossary/indexability" />
+  <Card title="Machine readability" href="/ai-search-glossary/machine-readability" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[AI SEO](/services/ai-seo)  [Citation-Ready Content](/services/citation-content)

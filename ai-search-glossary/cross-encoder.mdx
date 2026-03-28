@@ -1,0 +1,28 @@
+---
+title: "Cross-encoder"
+description: "A cross-encoder is the model architecture used in reranking that takes a query-chunk pair as joint input and outputs a relevance score."
+---
+
+*Technical implementation* · *AI Search Infrastructure*
+
+## Definition
+
+A cross-encoder is the model architecture used in reranking. It takes a query-chunk pair as joint input — processing both together — and outputs a relevance score. Unlike a bi-encoder, it can attend to the interaction between query and chunk, making it dramatically more accurate at relevance scoring.
+
+## Why It Matters for AI Search
+
+Cross-encoders are too slow to run over a full index at query time, which is why retrieval pipelines separate first-pass retrieval (bi-encoder speed) from reranking (cross-encoder accuracy). The cross-encoder sees far fewer candidates — the top-k from first pass — and can afford to be thorough. Content that answers a query completely and specifically scores better under cross-encoder reranking than content that is merely topically adjacent.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Reranking" href="/ai-search-glossary/reranking" />
+  <Card title="Bi-encoder" href="/ai-search-glossary/bi-encoder" />
+  <Card title="First-pass retrieval" href="/ai-search-glossary/first-pass-retrieval" />
+  <Card title="Retrieval pipeline" href="/ai-search-glossary/retrieval-pipeline" />
+  <Card title="Cosine similarity" href="/ai-search-glossary/cosine-similarity" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[AI SEO](/services/ai-seo)

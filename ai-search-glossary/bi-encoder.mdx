@@ -1,0 +1,28 @@
+---
+title: "Bi-encoder"
+description: "A bi-encoder is the model architecture used in first-pass retrieval that encodes the query and each document chunk independently into vectors."
+---
+
+*Technical implementation* · *AI Search Infrastructure*
+
+## Definition
+
+A bi-encoder is the model architecture used in first-pass retrieval. It encodes the query and each document chunk independently into vectors, then compares them using cosine similarity. Fast enough for large-scale search but less accurate than a cross-encoder because it cannot attend to the interaction between query and chunk.
+
+## Why It Matters for AI Search
+
+Bi-encoders make large-scale semantic search possible — without them, vector retrieval over millions of documents would be too slow for real-time queries. Their limitation is that they represent query and document independently, so they miss relevance signals that only appear when the two are read together. This is why reranking with a cross-encoder exists as a second stage.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Cross-encoder" href="/ai-search-glossary/cross-encoder" />
+  <Card title="Reranking" href="/ai-search-glossary/reranking" />
+  <Card title="First-pass retrieval" href="/ai-search-glossary/first-pass-retrieval" />
+  <Card title="Embedding" href="/ai-search-glossary/embedding" />
+  <Card title="Cosine similarity" href="/ai-search-glossary/cosine-similarity" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[AI SEO](/services/ai-seo)

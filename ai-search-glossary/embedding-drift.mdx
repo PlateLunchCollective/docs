@@ -1,0 +1,28 @@
+---
+title: "Embedding Drift"
+description: "Embedding drift is the movement of a passage's embedding vector away from a target retrieval cluster caused by the introduction of off-topic content."
+---
+
+*Core concept* · *AI Search Infrastructure*
+
+## Definition
+
+Embedding drift is the movement of a passage's embedding vector away from a target retrieval cluster caused by the introduction of off-topic content. A section that starts answering one question and pivots to address a second ends up positioned between clusters rather than inside either one.
+
+## Why It Matters for AI Search
+
+Embedding drift is why mixed-topic passages underperform structurally clean ones even when both contain good information. The drift is not a gradual weakening — it is a geometric repositioning. The vector ends up in a low-density region between clusters, far from the dense retrieval targets of both topics. The practical fix is the same as the structural advice: one question per section.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Semantic center of gravity" href="/ai-search-glossary/semantic-center-of-gravity" />
+  <Card title="Semantic density" href="/ai-search-glossary/semantic-density" />
+  <Card title="Topic coherence" href="/ai-search-glossary/topic-coherence" />
+  <Card title="Embedding" href="/ai-search-glossary/embedding" />
+  <Card title="Cluster" href="/ai-search-glossary/cluster" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[Citation-Ready Content](/services/citation-content)  [AI SEO](/services/ai-seo)

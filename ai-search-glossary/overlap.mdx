@@ -1,0 +1,28 @@
+---
+title: "Overlap"
+description: "Overlap is a technique in fixed-size chunking where adjacent chunks share a set number of tokens at their boundaries."
+---
+
+*Technical implementation* · *AI Search Infrastructure*
+
+## Definition
+
+Overlap is a technique in fixed-size chunking where adjacent chunks share a set number of tokens at their boundaries. A chunk beginning at position 500 and ending at 1000 might share tokens 950–1000 with the next chunk beginning at 950.
+
+## Why It Matters for AI Search
+
+Reduces the chance of a relevant sentence falling at a boundary and being lost across two incomplete chunks. The tradeoff: larger indexes and the possibility of retrieving the same content twice from adjacent overlapping chunks. Standard overlap windows run 10–20% of chunk size. For content strategy, overlap is a mitigation for poor structure — self-contained sections reduce its necessity.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Fixed-size chunking" href="/ai-search-glossary/fixed-size-chunking" />
+  <Card title="Chunking" href="/ai-search-glossary/chunking" />
+  <Card title="Embedding" href="/ai-search-glossary/embedding" />
+  <Card title="RAG" href="/ai-search-glossary/rag" />
+  <Card title="Vector database" href="/ai-search-glossary/vector-database" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[AI SEO](/services/ai-seo)

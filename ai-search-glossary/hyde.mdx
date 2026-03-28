@@ -1,0 +1,28 @@
+---
+title: "HyDE (Hypothetical Document Embeddings)"
+description: "HyDE is a retrieval technique where the model generates a hypothetical ideal answer to a query, embeds that answer, and uses the resulting embedding for retrieval."
+---
+
+*Technical implementation* · *AI Search Infrastructure*
+
+## Definition
+
+HyDE is a retrieval technique where the model generates a hypothetical ideal answer to a query, embeds that answer, and uses the resulting embedding for retrieval instead of embedding the query directly. The hypothesis is that the embedding of a hypothetical answer is geometrically closer in vector space to actual relevant documents than the embedding of the query itself.
+
+## Why It Matters for AI Search
+
+HyDE is particularly effective for short, ambiguous, or conversational queries where the query's embedding does not land near the relevant content in vector space. The hypothetical answer provides more semantic context than the bare query. For content creators, HyDE reinforces the case for writing that sounds like the answer rather than the question — content that resembles what a complete, well-structured answer looks like is more likely to be retrieved under HyDE-style query formulation.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Step-back prompting" href="/ai-search-glossary/step-back-prompting" />
+  <Card title="Query decomposition" href="/ai-search-glossary/query-decomposition" />
+  <Card title="Embedding" href="/ai-search-glossary/embedding" />
+  <Card title="First-pass retrieval" href="/ai-search-glossary/first-pass-retrieval" />
+  <Card title="Retrieval pipeline" href="/ai-search-glossary/retrieval-pipeline" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[AI SEO](/services/ai-seo)

@@ -1,0 +1,28 @@
+---
+title: "Reranking"
+description: "Reranking is the second stage of a retrieval pipeline where the candidate set from first-pass retrieval is re-scored by a separate model."
+---
+
+*Technical implementation* · *AI Search Infrastructure*
+
+## Definition
+
+Reranking is the second stage of a retrieval pipeline where the candidate set from first-pass retrieval is re-scored by a separate model — typically a cross-encoder — that reads the query and each candidate chunk together and outputs a relevance score. The top-scoring chunks proceed to context assembly.
+
+## Why It Matters for AI Search
+
+The reranker is where most of the "why did that get cited and not this" behavior actually lives. First-pass retrieval gets candidates into the room using approximate vector similarity. The reranker reads each candidate carefully against the specific query and makes a precision judgment. A chunk that retrieves in the first pass but scores poorly in reranking does not appear in the final context — and therefore cannot be cited.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Cross-encoder" href="/ai-search-glossary/cross-encoder" />
+  <Card title="Bi-encoder" href="/ai-search-glossary/bi-encoder" />
+  <Card title="First-pass retrieval" href="/ai-search-glossary/first-pass-retrieval" />
+  <Card title="Retrieval pipeline" href="/ai-search-glossary/retrieval-pipeline" />
+  <Card title="Context assembly" href="/ai-search-glossary/context-assembly" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[Citation-Ready Content](/services/citation-content)  [AI SEO](/services/ai-seo)

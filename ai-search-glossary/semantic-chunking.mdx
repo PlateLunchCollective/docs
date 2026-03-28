@@ -1,0 +1,28 @@
+---
+title: "Semantic Chunking"
+description: "Semantic chunking splits content at natural topic boundaries detected by a model, rather than at a fixed character or token count."
+---
+
+*Technical implementation* · *AI Search Infrastructure*
+
+## Definition
+
+Semantic chunking splits content at natural topic boundaries detected by a model, rather than at a fixed character or token count. Each chunk contains a complete, coherent unit of meaning.
+
+## Why It Matters for AI Search
+
+Produces tighter embeddings and better retrieval precision than fixed-size chunking because each chunk corresponds to a genuine topic boundary rather than an arbitrary position in the document. Not universally deployed in production pipelines — many systems still use fixed-size or heading-based chunking. Content structured with clear heading hierarchy and self-contained sections performs well under both strategies.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Fixed-size chunking" href="/ai-search-glossary/fixed-size-chunking" />
+  <Card title="Chunking" href="/ai-search-glossary/chunking" />
+  <Card title="Embedding" href="/ai-search-glossary/embedding" />
+  <Card title="Retrieval pipeline" href="/ai-search-glossary/retrieval-pipeline" />
+  <Card title="Content extractability" href="/ai-search-glossary/content-extractability" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[Citation-Ready Content](/services/citation-content)  [AI SEO](/services/ai-seo)

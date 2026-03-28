@@ -1,0 +1,28 @@
+---
+title: "Approximate Nearest Neighbor (ANN) Search"
+description: "Approximate nearest neighbor search is the algorithm that finds the vectors closest to a query vector in a large index."
+---
+
+*Technical implementation* · *AI Search Infrastructure*
+
+## Definition
+
+Approximate nearest neighbor search is the algorithm that finds the vectors closest to a query vector in a large index. It trades a small, controlled amount of recall for dramatic speed gains over exact search.
+
+## Why It Matters for AI Search
+
+Exact search over millions of vectors is computationally prohibitive at production scale. ANN algorithms — HNSW, IVF, and others — make vector retrieval fast enough for real-time query responses. The approximation means that a small percentage of genuinely relevant chunks may not appear in first-pass results. This is why the reranking stage exists: to catch precision failures that the approximate first pass missed.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="First-pass retrieval" href="/ai-search-glossary/first-pass-retrieval" />
+  <Card title="Reranking" href="/ai-search-glossary/reranking" />
+  <Card title="Vector database" href="/ai-search-glossary/vector-database" />
+  <Card title="Embedding" href="/ai-search-glossary/embedding" />
+  <Card title="Dense retrieval" href="/ai-search-glossary/dense-retrieval" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[AI SEO](/services/ai-seo)
