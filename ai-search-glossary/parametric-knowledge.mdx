@@ -1,0 +1,33 @@
+---
+title: "Parametric Knowledge"
+description: "The information encoded directly into a language model's weights during training — what the model knows by default, without retrieving anything."
+---
+
+*Core concept* · *AI Search Infrastructure*
+
+## Definition
+
+Parametric knowledge is the information encoded directly into a language model's weights during training — what the model knows by default, without retrieving anything. When a model answers a question from memory, it is drawing on parametric knowledge. The term distinguishes this from retrieval knowledge, which comes from documents fetched at query time.
+
+## Why It Matters for AI Search
+
+Parametric knowledge is the layer that retrieval cannot reach. Approximately 54% of ChatGPT queries are answered from parametric memory without triggering any retrieval. For those queries, content structure, crawlability, and retrieval optimization are all irrelevant — the model already has its answer. The only lever is the parametric layer itself: what sources fed training data, how prominently the brand appeared in them, and whether the model's representation is accurate. For established brands with wrong or outdated representations, fixing the retrieval layer is insufficient — the parametric layer requires the sources that feed training data: Wikipedia, widely-cited publications, Knowledge Graph entity signals.
+
+## Common Misconception
+
+Publishing well-structured content will fix a wrong parametric belief. It will not, in the near term — retrieval-optimized content affects responses where retrieval is triggered, not the model's encoded knowledge. Parametric beliefs update only through future training runs.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Retrieval knowledge" href="/ai-search-glossary/retrieval-knowledge" />
+  <Card title="Parametric inertia" href="/ai-search-glossary/parametric-inertia" />
+  <Card title="Parametric belief" href="/ai-search-glossary/parametric-belief" />
+  <Card title="Knowledge conflict" href="/ai-search-glossary/knowledge-conflict" />
+  <Card title="Training corpus" href="/ai-search-glossary/training-corpus" />
+  <Card title="Retrieval trigger" href="/ai-search-glossary/retrieval-trigger" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[Entity SEO](/services/entity-seo)  [Context Map](/services/context-map)  [AI Search Visibility Assessment](/services/ai-search-visibility-assessment)

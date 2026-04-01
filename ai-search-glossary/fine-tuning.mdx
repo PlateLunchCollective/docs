@@ -1,28 +1,32 @@
 ---
 title: "Fine-Tuning"
-description: "Fine-tuning is the process of further training a pre-trained LLM on a specific dataset to improve its performance on a particular task or domain."
+description: "The process of continuing to train a pre-trained foundation model on a smaller, task-specific dataset to adjust its behavior or knowledge without retraining from scratch."
 ---
 
 *Technical implementation* · *AI Search Infrastructure*
 
 ## Definition
 
-Fine-tuning is the process of further training a pre-trained LLM on a specific dataset to improve its performance on a particular task or domain. Fine-tuned models have modified weights that reflect both broad pre-training knowledge and specialized domain knowledge.
+Fine-tuning is the process of continuing to train a pre-trained foundation model on a smaller, task-specific or domain-specific dataset to adjust its behavior, tone, or knowledge for a particular application. It modifies the model's weights — updating its parametric knowledge — without retraining from scratch.
 
 ## Why It Matters for AI Search
 
-Fine-tuning is how AI platforms customize general-purpose LLMs for specific use cases — customer service bots, legal research tools, medical assistants. For brands building internal AI applications on their own content, fine-tuning on proprietary data creates a model that reflects the brand's knowledge accurately. For brands working with general-purpose AI search platforms, fine-tuning is less directly actionable — but understanding it explains why different AI products represent the same brand differently.
+Fine-tuning is sometimes proposed as a fix for wrong or absent AI brand representations. In practice, it is not available to brands as a self-service action — the models that power ChatGPT, Perplexity, and Google AI Overviews are not fine-tunable by external parties. Fine-tuning is relevant in enterprise deployments where a company runs its own model instance, or when evaluating AI vendors who offer fine-tuned models as a product. For most brands, the parametric correction path runs through training data sources — Wikipedia, knowledge graphs, widely-cited publications — not fine-tuning.
+
+## Common Misconception
+
+Brands can fine-tune ChatGPT or Perplexity to correct how those platforms represent them. They cannot — these are closed production systems. Fine-tuning applies to models a brand controls directly.
 
 ## Related Terms
 
 <CardGroup cols={2}>
+  <Card title="Parametric knowledge" href="/ai-search-glossary/parametric-knowledge" />
   <Card title="Pre-training" href="/ai-search-glossary/pre-training" />
   <Card title="Post-training" href="/ai-search-glossary/post-training" />
-  <Card title="Foundation model" href="/ai-search-glossary/foundation-model" />
   <Card title="Training corpus" href="/ai-search-glossary/training-corpus" />
-  <Card title="LLM brand memory" href="/ai-search-glossary/llm-brand-memory" />
+  <Card title="Foundation model" href="/ai-search-glossary/foundation-model" />
 </CardGroup>
 
 ## Relevant Plate Lunch Collective Services
 
-[AI SEO](/services/ai-seo)
+[AI SEO](/services/ai-seo)  [AI Search Visibility Assessment](/services/ai-search-visibility-assessment)
