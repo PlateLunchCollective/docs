@@ -1,0 +1,32 @@
+---
+title: "LLM Decay"
+description: "LLM decay is the gradual degradation of the accuracy of a model's parametric knowledge over time as the world changes and the model's training data ages."
+---
+
+*Core concept* · *AI Search Infrastructure*
+
+## Definition
+
+LLM decay is the gradual degradation of the accuracy of a model's parametric knowledge over time as the world changes and the model's training data ages. The model's weights do not update between training runs, so the gap between what the model believes and what is currently true widens continuously until the next training run occurs.
+
+## Why It Matters for AI Search
+
+LLM decay is the mechanism behind training cutoff risk for brands. A brand that was accurately represented in training data at cutoff will become progressively less accurately represented as time passes and the brand evolves. Repositioned brands, brands that have launched new products or services, and brands that have corrected past inaccuracies in their public record are all subject to decay. The retrieval layer partially compensates for decay on queries where retrieval is triggered — but for the share of queries answered from parametric memory, the decayed belief is what the model expresses.
+
+## Common Misconception
+
+LLM decay affects all brands equally. It does not — it disproportionately affects brands undergoing change. A stable, well-established brand with an accurate parametric representation decays slowly because the underlying facts are not changing. A repositioning brand or a fast-moving category experiences decay faster because the gap between the model's fixed belief and current reality widens faster.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Parametric knowledge" href="/ai-search-glossary/parametric-knowledge" />
+  <Card title="Training cutoff" href="/ai-search-glossary/training-cutoff" />
+  <Card title="Parametric inertia" href="/ai-search-glossary/parametric-inertia" />
+  <Card title="Knowledge conflict" href="/ai-search-glossary/knowledge-conflict" />
+  <Card title="Parametric belief" href="/ai-search-glossary/parametric-belief" />
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[Entity SEO](/services/entity-seo)  [Context Map](/services/context-map)  [AI Search Visibility Assessment](/services/ai-search-visibility-assessment)
