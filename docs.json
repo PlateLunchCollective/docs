@@ -120,7 +120,10 @@
     ]
   },
   "seo": {
-    "indexing": "all"
+    "indexing": "all",
+    "metatags": {
+      "og:image": "https://www.platelunchcollective.com/images/ServicesOG.jpg"
+    }
   },
   "integrations": {
     "gtm": {
