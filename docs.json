@@ -11,10 +11,16 @@
     "dark": "#C1440E"
   },
   "navbar": {
+    "links": [
+      {
+        "label": "Plate Lunch Collective",
+        "href": "https://www.platelunchcollective.com"
+      }
+    ],
     "primary": {
       "type": "button",
       "label": "Back to Plate Lunch Collective",
-      "href": "https://platelunchcollective.com"
+      "href": "https://www.platelunchcollective.com"
     }
   },
   "navigation": {
