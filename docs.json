@@ -1,5 +1,13 @@
 {
   "name": "Plate Lunch Collective",
+  "redirects": [
+    { "source": "/ai-search-glossary/llm-brand-memory", "destination": "/ai-search-glossary/brand-memory-llm" },
+    { "source": "/ai-search-glossary/re-ranking", "destination": "/ai-search-glossary/reranking" },
+    { "source": "/ai-search-glossary/customer-acquisition-cost", "destination": "/ai-search-glossary/cac" },
+    { "source": "/ai-search-glossary/user-engagement-signal", "destination": "/ai-search-glossary/engagement-signal" },
+    { "source": "/ai-search-glossary/hub-and-spoke", "destination": "/ai-search-glossary/hub-and-spoke-model" },
+    { "source": "/ai-search-glossary/no-click-result", "destination": "/ai-search-glossary/zero-click-search" }
+  ],
   "theme": "mint",
   "logo": {
     "light": "/logo/light.svg",
