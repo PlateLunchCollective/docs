@@ -7,7 +7,9 @@
     { "source": "/ai-search-glossary/user-engagement-signal", "destination": "/ai-search-glossary/engagement-signal" },
     { "source": "/ai-search-glossary/hub-and-spoke", "destination": "/ai-search-glossary/hub-and-spoke-model" },
     { "source": "/ai-search-glossary/no-click-result", "destination": "/ai-search-glossary/zero-click-search" },
-    { "source": "/ai-search-glossary/named-entity-recognition-ner", "destination": "/ai-search-glossary/named-entity-recognition" }
+    { "source": "/ai-search-glossary/named-entity-recognition-ner", "destination": "/ai-search-glossary/named-entity-recognition" },
+    { "source": "/ai-search-glossary/social-search-optimization", "destination": "/ai-search-glossary/social-search" },
+    { "source": "/ai-search-glossary/ai-search-visibility-assessment", "destination": "/ai-search-glossary/ai-search-visibility" }
   ],
   "theme": "mint",
   "logo": {
