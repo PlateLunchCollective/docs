@@ -1,0 +1,28 @@
+---
+title: "Client-Side Rendering"
+description: "Client-side rendering is an approach where a page arrives as a near-empty shell and the browser builds the visible content with JavaScript after loading."
+---
+
+*Technical implementation* · *Technical SEO*
+
+## Definition
+
+Client-side rendering is an approach where a page arrives as a near-empty shell and the browser builds the visible content with JavaScript after loading. The meaningful text exists only after the script runs, not in the initial HTML the server sends.
+
+## Why It Matters for AI Search
+
+A crawler or model that does not execute JavaScript sees the shell, not the content. Many AI retrieval systems fetch the raw HTML and move on, so a client-side-rendered page can look empty to the very systems deciding whether to cite it. The content is there for a person with a browser and absent for a machine reading the source. Serving the meaningful text in the initial HTML, through server-side rendering or prerendering, is what keeps a page legible to retrieval.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Server-side rendering" href="/ai-search-glossary/server-side-rendering">See also</Card>
+  <Card title="Prerendering" href="/ai-search-glossary/prerendering">See also</Card>
+  <Card title="Indexability" href="/ai-search-glossary/indexability">See also</Card>
+  <Card title="Technical SEO" href="/ai-search-glossary/technical-seo">See also</Card>
+  <Card title="Core Web Vitals" href="/ai-search-glossary/core-web-vitals">See also</Card>
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[AI SEO](https://www.platelunchcollective.com/services/ai-seo)  [Context Map](https://www.platelunchcollective.com/services/context-map)

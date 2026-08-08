@@ -1,0 +1,27 @@
+---
+title: "QAPage Schema"
+description: "QAPage schema is structured data marking a page built around a single question with one or more user-submitted answers, distinct from a site-authored FAQ list."
+---
+
+*Technical implementation* · *Structured Data*
+
+## Definition
+
+QAPage schema is a structured data type that marks a page built around a single question with one or more answers, typically submitted and voted on by users. It fits forum threads, community Q&A, and support pages where a question draws competing responses. It is not the same as FAQ schema, which marks a list of questions a site answers in its own voice.
+
+## Why It Matters for AI Search
+
+The distinction QAPage draws is one a machine cannot reliably infer from prose alone, and it changes how an answer engine reads the page. FAQ markup says these are the answers the publisher stands behind. QAPage markup says here is a question and here is what a community offered, complete with the signals of which answer the community preferred. Marking a genuine Q&A page with the right type tells a retrieval system what kind of authority the answers carry, and using it where the content does not fit, a site's own answers dressed as community consensus, is the misuse it guards against.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="FAQ Schema" href="/ai-search-glossary/faq-schema">Distinct from</Card>
+  <Card title="Schema markup" href="/ai-search-glossary/schema-markup">See also</Card>
+  <Card title="Structured data" href="/ai-search-glossary/structured-data">See also</Card>
+  <Card title="Answer layer" href="/ai-search-glossary/answer-layer">See also</Card>
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[Citation-Ready Content](https://www.platelunchcollective.com/services/citation-ready-content)  [Answer Engine Optimization](https://www.platelunchcollective.com/services/answer-engine-optimization)

@@ -1,0 +1,28 @@
+---
+title: "Query Fan-Out"
+description: "Query fan-out is the pattern where an AI system turns one user question into several parallel searches, each targeting a different facet of the request."
+---
+
+*Core concept* · *AI Search Infrastructure*
+
+## Definition
+
+Query fan-out is the pattern where an AI system turns one user question into several parallel searches, each targeting a different facet of the request. The sub-queries run at once, and their results are merged before the model writes an answer. Where decomposition is the splitting, fan-out is the parallel search that follows.
+
+## Why It Matters for AI Search
+
+Fan-out is how an assistant covers a compound request in a single turn. Each fanned-out search is its own competition, with its own set of retrieved sources, and a business appears in the final answer only if it wins one of them. The lesson for content is coverage. A page that speaks to one facet clearly can be pulled into an answer built mostly from other sources. Businesses that document their specifics get fanned into answers they were never asked about directly.
+
+## Related Terms
+
+<CardGroup cols={2}>
+  <Card title="Query decomposition" href="/ai-search-glossary/query-decomposition">See also</Card>
+  <Card title="Query understanding" href="/ai-search-glossary/query-understanding">See also</Card>
+  <Card title="Multi-step retrieval" href="/ai-search-glossary/multi-step-retrieval">See also</Card>
+  <Card title="RAG" href="/ai-search-glossary/rag">See also</Card>
+  <Card title="Agentic search" href="/ai-search-glossary/agentic-search">See also</Card>
+</CardGroup>
+
+## Relevant Plate Lunch Collective Services
+
+[AI SEO](https://www.platelunchcollective.com/services/ai-seo)  [Citation-Ready Content](https://www.platelunchcollective.com/services/citation-ready-content)
