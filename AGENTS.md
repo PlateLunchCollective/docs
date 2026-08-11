@@ -12,6 +12,10 @@
 - Run `mint dev` to preview locally
 - Run `mint broken-links` to check links
 
+## Configuration notes
+
+- **`seo.organization` in `docs.json` is mirrored from the main site.** Its `id`, `url`, and the 13-URL `sameAs` array are copied verbatim from the main site's `app/layout.tsx` (`organizationSchema`, repo `platelunchcollective/plc-website`). This is what ties the wiki's Organization entity to the main site's canonical `@id` for AI/knowledge-graph reconciliation. If the main site's `sameAs` changes, update it here too, and vice versa — if the two arrays drift, the entity link silently breaks. Keep them byte-for-byte identical.
+
 ## Terminology
 
 {/* Add product-specific terms and preferred usage */}

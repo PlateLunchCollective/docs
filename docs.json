@@ -140,6 +140,26 @@
     "indexing": "all",
     "metatags": {
       "og:image": "https://www.platelunchcollective.com/images/ServicesOG.jpg"
+    },
+    "organization": {
+      "id": "https://www.platelunchcollective.com/#organization",
+      "name": "Plate Lunch Collective",
+      "url": "https://www.platelunchcollective.com",
+      "sameAs": [
+        "https://x.com/PlateLunchCo",
+        "https://www.facebook.com/profile.php?id=61574164327745",
+        "https://www.instagram.com/platelunchcollective/",
+        "https://www.threads.com/@platelunchcollective",
+        "https://bsky.app/profile/platelunchco.bsky.social",
+        "https://www.crunchbase.com/organization/plate-lunch-collective",
+        "https://www.linkedin.com/company/plate-lunch-collective/",
+        "https://clutch.co/profile/plate-lunch-collective",
+        "https://wiki.platelunchcollective.com",
+        "https://www.yelp.com/biz/plate-lunch-collective-aiea?osq=plate+lunch+collective",
+        "https://www.google.com/maps/place/Plate+Lunch+Collective/@21.3770931,-157.9328506,17z/data=!3m2!4b1!5s0x7c006f49be224c6b:0x1e920e0bbe443e50!4m6!3m5!1s0x7c006fa9ef71677f:0xd884130d2090ede6!8m2!3d21.3770881!4d-157.9302757!16s%2Fg%2F11m6mq9j0g?entry=ttu&g_ep=EgoyMDI2MDMxOC4xIKXMDSoASAFQAw%3D%3D",
+        "https://maps.apple.com/place?place-id=I979EFFC67A7F2F46&address=99-113+Puakala+St%2C+Aiea%2C+HI++96701%2C+United+States&coordinate=21.377031%2C-157.930312&name=Plate+Lunch+Collective&_provider=9902",
+        "https://www.bing.com/maps/search?style=r&q=Plate+Lunch+Collective%2C+99-113+Puakala+St%2C+Aiea%2C+HI+96701%2C+United+States&ss=id.local_ypid%3A%22YN668D058AFE04E5A%22&st=Plate+Lunch+Collective&sfa=99-113+Puakala+St%2C+Aiea%2C+HI+96701%2C+United+States&cp=21.377171%7E-157.930328&lvl=16"
+      ]
     }
   },
   "integrations": {
