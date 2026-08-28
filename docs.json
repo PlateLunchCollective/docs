@@ -139,7 +139,9 @@
   "seo": {
     "indexing": "all",
     "metatags": {
-      "og:image": "https://www.platelunchcollective.com/images/ServicesOG.jpg"
+      "og:image": "https://www.platelunchcollective.com/images/ServicesOG.jpg",
+      "author": "Plate Lunch Collective",
+      "article:author": "https://www.platelunchcollective.com/#organization"
     },
     "organization": {
       "id": "https://www.platelunchcollective.com/#organization",
@@ -153,6 +155,7 @@
         "https://bsky.app/profile/platelunchco.bsky.social",
         "https://www.crunchbase.com/organization/plate-lunch-collective",
         "https://www.linkedin.com/company/plate-lunch-collective/",
+        "https://github.com/platelunchcollective",
         "https://clutch.co/profile/plate-lunch-collective",
         "https://wiki.platelunchcollective.com",
         "https://www.yelp.com/biz/plate-lunch-collective-aiea?osq=plate+lunch+collective",
