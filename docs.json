@@ -9,7 +9,16 @@
     { "source": "/ai-search-glossary/no-click-result", "destination": "/ai-search-glossary/zero-click-search" },
     { "source": "/ai-search-glossary/named-entity-recognition-ner", "destination": "/ai-search-glossary/named-entity-recognition" },
     { "source": "/ai-search-glossary/social-search-optimization", "destination": "/ai-search-glossary/social-search" },
-    { "source": "/ai-search-glossary/ai-search-visibility-assessment", "destination": "/ai-search-glossary/ai-search-visibility" }
+    { "source": "/ai-search-glossary/ai-search-visibility-assessment", "destination": "/ai-search-glossary/ai-search-visibility" },
+    { "source": "/services", "destination": "/ai-search-glossary", "permanent": true },
+    { "source": "/services/ai-seo", "destination": "/ai-search-glossary/ai-seo", "permanent": true },
+    { "source": "/services/aeo", "destination": "/ai-search-glossary/aeo", "permanent": true },
+    { "source": "/services/entity-seo", "destination": "/ai-search-glossary/entity-seo", "permanent": true },
+    { "source": "/services/social-search", "destination": "/ai-search-glossary/social-search", "permanent": true },
+    { "source": "/services/citation-content", "destination": "/ai-search-glossary/citation-ready-content", "permanent": true },
+    { "source": "/services/context-map", "destination": "/ai-search-glossary/context-map", "permanent": true },
+    { "source": "/services/ai-fluency", "destination": "/ai-search-glossary/context-map", "permanent": true },
+    { "source": "/services/fractional-cmo", "destination": "/ai-search-glossary/fractional-cmo", "permanent": true }
   ],
   "theme": "mint",
   "logo": {
@@ -64,23 +73,6 @@
       {
         "tab": "Services",
         "groups": [
-          {
-            "group": "Overview",
-            "pages": ["services/index"]
-          },
-          {
-            "group": "Service Explainers",
-            "pages": [
-              "services/ai-seo",
-              "services/aeo",
-              "services/entity-seo",
-              "services/social-search",
-              "services/citation-content",
-              "services/context-map",
-              "services/ai-fluency",
-              "services/fractional-cmo"
-            ]
-          },
           {
             "group": "FAQ",
             "pages": [
