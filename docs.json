@@ -16,8 +16,10 @@
     { "source": "/services/entity-seo", "destination": "/ai-search-glossary/entity-seo", "permanent": true },
     { "source": "/services/social-search", "destination": "/ai-search-glossary/social-search", "permanent": true },
     { "source": "/services/citation-content", "destination": "/ai-search-glossary/citation-ready-content", "permanent": true },
-    { "source": "/services/context-map", "destination": "/ai-search-glossary/context-map", "permanent": true },
-    { "source": "/services/ai-fluency", "destination": "/ai-search-glossary/context-map", "permanent": true },
+    { "source": "/services/context-map", "destination": "/ai-search-glossary/ai-search-game-plan", "permanent": true },
+    { "source": "/ai-search-glossary/context-map", "destination": "/ai-search-glossary/ai-search-game-plan", "permanent": true },
+    { "source": "/faq/context-map", "destination": "/faq/ai-search-game-plan", "permanent": true },
+    { "source": "/services/ai-fluency", "destination": "/ai-search-glossary/ai-search-game-plan", "permanent": true },
     { "source": "/services/fractional-cmo", "destination": "/ai-search-glossary/fractional-cmo", "permanent": true }
   ],
   "theme": "mint",
@@ -82,7 +84,7 @@
               "faq/entity-seo",
               "faq/social-search",
               "faq/citation-content",
-              "faq/context-map",
+              "faq/ai-search-game-plan",
               "faq/ai-search-visibility",
               "faq/fractional-cmo",
               "faq/engagement"
