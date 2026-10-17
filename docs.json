@@ -1,6 +1,7 @@
 {
   "name": "Plate Lunch Collective",
   "redirects": [
+    { "source": "/ai-search-glossary/llm-influence-score", "destination": "/ai-search-glossary/brand-citation-rate" },
     { "source": "/ai-search-glossary/llm-brand-memory", "destination": "/ai-search-glossary/brand-memory-llm" },
     { "source": "/ai-search-glossary/re-ranking", "destination": "/ai-search-glossary/reranking" },
     { "source": "/ai-search-glossary/customer-acquisition-cost", "destination": "/ai-search-glossary/cac" },
