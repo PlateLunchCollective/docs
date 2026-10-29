@@ -1,6 +1,10 @@
 {
   "name": "Plate Lunch Collective",
   "redirects": [
+    { "source": "/field-notes", "destination": "/" },
+    { "source": "/field-notes/index", "destination": "/" },
+    { "source": "/field-notes/csd", "destination": "/" },
+    { "source": "/methodology/csd", "destination": "/" },
     { "source": "/ai-search-glossary/llm-influence-score", "destination": "/ai-search-glossary/brand-citation-rate" },
     { "source": "/ai-search-glossary/llm-brand-memory", "destination": "/ai-search-glossary/brand-memory-llm" },
     { "source": "/ai-search-glossary/re-ranking", "destination": "/ai-search-glossary/reranking" },
@@ -117,15 +121,6 @@
               "tools/technical-seo",
               "tools/social-search"
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Field Notes",
-        "groups": [
-          {
-            "group": "Field Notes",
-            "pages": ["field-notes/index", "field-notes/csd"]
           }
         ]
       }
